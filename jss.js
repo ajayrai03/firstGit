@@ -24,3 +24,5 @@ console.log(typeof str);
 // backtick
 var num=5000;
 console.log(`half of ${num} is ${num/2}`);
+var h='hey';
+console.log(h);
