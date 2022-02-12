@@ -46,13 +46,16 @@
 //         console.log(i);
 //     }
 // }
-var n=10;
-for(var i=0;i<n;i++)
-{   let j=20;
-    if(i%2==0)
-    {
-        console.log(i);
-    }
-}
-console.log(i);
-console.log(j);
+// var n=10;
+// for(var i=0;i<n;i++)
+// {   let j=20;
+//     if(i%2==0)
+//     {
+//         console.log(i);
+//     }
+// }
+// console.log(i);
+// console.log(j);
+let arr2d=[[1,2,3], [4,5,6], [7,8,9]];
+console.table(arr2d);
+console.log(arr2d[1][2]);
