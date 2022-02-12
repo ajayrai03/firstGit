@@ -38,11 +38,21 @@
 // console.log(a);
 // const b=75;
 // console.log(b);
+// var n=10;
+// for(var i=0;i<n;i++)
+// {
+//     if(i%2==0)
+//     {
+//         console.log(i);
+//     }
+// }
 var n=10;
 for(var i=0;i<n;i++)
-{
+{   let j=20;
     if(i%2==0)
     {
         console.log(i);
     }
 }
+console.log(i);
+console.log(j);
