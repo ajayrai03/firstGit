@@ -60,5 +60,13 @@
 // console.table(arr2d);
 // console.log(arr2d[1][2]);
 // console.log(arr2d.length);
-let arr1d=["bmw", "tata", 1,4,0,0,3];
-console.log(arr1d.length);
+// let arr1d=["bmw", "tata", 1,4,0,0,3];
+// console.log(arr1d.length);
+// var a="ajay rai";
+// console.log(a);
+// a="dom";
+// console.log(a);
+let a="ajay rai";
+ a="dom";
+console.log(a);
+
