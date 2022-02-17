@@ -66,7 +66,60 @@
 // console.log(a);
 // a="dom";
 // console.log(a);
-let a="ajay rai";
- a="dom";
-console.log(a);
+// let a="ajay rai";
+//  a="dom";
+// console.log(a);
+// "objects"
+// let captainAmerica = {
+//     firstName: "Steve",
+//     lastName: "Rogers",
+//     friends: ["Bucky", "Tony Stark", "Brue Banner"],
+//     age: 102,
+//     isAvenger: true,
+//     address: {
+//         state: "Manhattan",
+//         city: "New York",
+//         country: "USA"
+//     },
+//     sayHi: function () {
+//         console.log(`Hello my name is ${this.firstName}`);
+//     }
+// };
 
+// console.log(captainAmerica);
+// console.log(captainAmerica.friends);
+// console.log(captainAmerica.friends[0]);
+// captainAmerica.sayHi();
+// let person = {
+//     //key : value 
+//     name: "Abhishek",
+//     age: 28,
+//     phone: 9999999999,
+//     gender: "Male",
+//     height: "170cm"
+// };
+//console.log(`hey ${person.name} welcome`);
+let address = {
+    block : 'B 101',
+    sector : 44,
+    city : "noida",
+    district : "gautambuddhnagar",
+    state : "uttarpradesh",
+    person:{0 : "ajay", 1:"rai"},
+    domocile :{
+        proof:"bihar"
+    },
+    sayhi:function()
+    {
+        console.log(`hey ${this.block} your`);
+    }
+
+};
+//console.log(address.block);
+// for(let key in address)
+// {
+//     console.log(key);   
+//     console.log(address[key]);
+// }
+// address.sayhi();
+console.log(address.person[1]);
