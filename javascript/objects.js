@@ -5,3 +5,4 @@ let car={
     available_models:["jaguar", "rangerover", "tesla"]
     };
     console.log(car);
+    console.log(car.available_models[0]);
