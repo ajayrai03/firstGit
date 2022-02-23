@@ -122,4 +122,5 @@ let address = {
 //     console.log(address[key]);
 // }
 // address.sayhi();
-console.log(address.person[1]);
+//console.log(address.person[1]);
+console.log(address.domocile);
